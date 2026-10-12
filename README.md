@@ -1,16 +1,18 @@
-# Urban Heat Island Predictor — Bengaluru
+# Urban Heat Island Prediction — Bengaluru
 
-A geospatial machine learning project investigating urban heat islands in Bengaluru, India, using Landsat satellite imagery and environmental indices. The project combines remote sensing, feature engineering, gradient-boosted regression, and spatial analysis to predict land surface temperature and explore potential urban cooling interventions.
+A geospatial machine learning project focused on predicting land surface temperature (LST) and identifying urban heat islands in Bengaluru, India.
 
-The current implementation analyses a single Landsat scene from April 2025. **Time-series modelling is a planned extension** to investigate how urban heat patterns evolve over time.
+The project uses **10 years of historical Landsat satellite data** to model land surface temperature for April 2025. By combining temporal satellite observations, environmental indices, and machine learning, it investigates the spatial distribution of urban heat and the environmental factors associated with elevated surface temperatures.
+
+The project also explores potential urban cooling interventions, including tree planting and green roofs, and analyses temperature patterns across Bengaluru's administrative wards.
 
 ## Objectives
 
-- Estimate land surface temperature (LST) across Bengaluru using satellite-derived environmental features.
-- Investigate the relationship between vegetation, built-up areas, surface characteristics, and temperature.
-- Train a machine learning model to predict land surface temperature.
-- Identify high-temperature hotspots and explore potential cooling interventions.
-- Extend the analysis to multiple satellite acquisitions to study temporal trends in urban heat.
+- Use a decade of historical satellite observations to predict land surface temperature for April 2025.
+- Investigate temporal and spatial patterns in Bengaluru's urban heat distribution.
+- Examine the relationship between vegetation, built-up areas, and surface temperature.
+- Identify high-temperature hotspots and evaluate hypothetical urban cooling scenarios.
+- Visualise predicted temperatures and cooling metrics across administrative wards.
 
 ## Methodology
 
